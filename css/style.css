@@ -9946,4 +9946,45 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+textarea {
+  resize: none;
+}
 
+@media screen and (max-width: 850px) {
+  
+  td {  
+    display: block;
+  }
+  .seta img{
+    width: 8%;
+}
+}
+
+@media screen and (max-width: 900px) {
+  #imag {
+    width: 140px;
+    height: 140px;
+  }
+  .seta img{
+    width: 8%;
+}
+}
+
+@media screen and (max-width: 1300px) {
+  #imag {
+    width: 200px;
+    height: 200px;
+  }
+  .seta img{
+    width: 8%;
+}
+}
+
+.seta{
+  margin-right: 20px;
+}
+
+.seta img:hover {
+  transition: 0.4s;
+  transform: scale(1.1);
+}
